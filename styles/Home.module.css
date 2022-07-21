@@ -1,9 +1,10 @@
 .container {
+  background-color: rgb(89, 99, 56);
   padding: 0 2rem;
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 95vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -12,13 +13,20 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.camp {
+  width: 200px;
+  height: 30px;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+}
+
+.info {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .footer a {
